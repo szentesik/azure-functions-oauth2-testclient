@@ -1,0 +1,21 @@
+{
+  "name": "testclient",
+  "version": "1.0.0",
+  "description": "Test client for Azure Function with Oauth2",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "dist/client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
